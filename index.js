@@ -14,10 +14,10 @@ function hideLoginForm() {
 function  showLoginForm(){
     if(email==="")
     {
-
+        console.log("fillup all requirement")
     }
     else{
-
+        hideLoginForm()
     }
 }
 
